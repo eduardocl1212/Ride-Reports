@@ -57,14 +57,14 @@ class TextScramble {
 // ——————————————————————————————————————————————————
 
 const phrases = [
-'19-03-2020',
+'QUEDATE EN CASA!',
 'GRUPO RIDE!',
 'VIAJA SEGURO',
 'VIAJA FACIL',
 'VIAJA RIDE!',
 'MUY PRONTO',
 'ESPERANOS',
-'00-00-00'];
+'CUIDATE'];
 
 
 const el = document.querySelector('.text');

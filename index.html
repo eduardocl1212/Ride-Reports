@@ -1,18 +1,71 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - Novel Coronavirus (COVID-19) Live Tracker Mexico</title>
+  <link rel="stylesheet" href="./style.css">
 
-      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+</head>
+<body>
+<!-- partial:index.partial.html -->
 
-      crossorigin="anonymous">
-    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
-    <title>index</title>
-  </head>
-  <body style="   background-color: black;">
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-    <div class="alert alert-danger" role="alert"> Probando nuevo diseño </div>
-  </body>
+<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700" rel="stylesheet">
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+<h1 class="title">COVID-19 - RealTime México <br> QUEDATE EN CASA </h1>
+<div class="container">
+  <!-- Card stats -->
+  <div class="card card-stats">
+    <!-- Card body -->
+    <div class="card-body">
+      <div class="col">
+        <h5 class="card-title text-uppercase text-muted">Total Cases</h5>
+        <span class="h2 font-weight-bold total_cases color-red count">0</span>
+      </div>
+      <div class="icon icon-shape bg-gradient-red text-white rounded-circle shadow">
+        <i class="fas fa-users"></i>
+      </div>
+    </div>
+  </div>
+  <div class="card card-stats">
+    <!-- Card body -->
+    <div class="card-body">
+      <div class="col">
+        <h5 class="card-title text-uppercase text-muted">Deaths</h5>
+        <span class="h2 font-weight-bold deaths color-blue count">0</span>
+      </div>
+      <div class="icon icon-shape bg-gradient-blue text-white rounded-circle shadow">
+        <i class="fas fa-procedures"></i>
+      </div>
+    </div>
+  </div>
+  <div class="card card-stats">
+    <!-- Card body -->
+    <div class="card-body">
+      <div class="col">
+        <h5 class="card-title text-uppercase text-muted">Recovered</h5>
+        <span class="h2 font-weight-bold recovered color-green count">0</span>
+      </div>
+      <div class="icon icon-shape bg-gradient-green text-white rounded-circle shadow">
+        <i class="fas fa-child"></i>
+      </div>
+    </div>
+  </div>
+  <div class="card card-stats">
+    <!-- Card body -->
+    <div class="card-body">
+      <div class="col">
+        <h5 class="card-title text-uppercase text-muted">New Cases Today</h5>
+        <span class="h2 font-weight-bold new_cases color-orange count">0</span>
+      </div>
+      <div class="icon icon-shape bg-gradient-orange text-white rounded-circle shadow">
+        <i class="fas fa-bell"></i>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- partial -->
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js'></script><script  src="./script.js"></script>
+
+</body>
 </html>
