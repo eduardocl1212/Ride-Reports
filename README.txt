@@ -1,1 +1,0 @@
-Aqui podremos concentrar cualquier problema que la aplicacion pueda conllevar durante el uso de la misma
