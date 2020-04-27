@@ -1,0 +1,131 @@
+{
+  "Campus" : {
+    "UG1" : {
+      "CampusN" : "UG-DICIS"
+    },
+    "UG2" : {
+      "CampusN" : "UG-DICIVA"
+    },
+    "UG3" : {
+      "CampusN" : "UG-DCEA"
+    }
+  },
+  "Opciones" : {
+    "CD" : {
+      "Opcion" : "Conductor"
+    },
+    "PS" : {
+      "Opcion" : "Pasajero"
+    }
+  },
+  "Rutas" : {
+    "UG-DCEA" : {
+      "01" : "DCEA",
+	  "02" : "Irapuato",
+      "03" : "Salamanca",
+      "04" : "Leon",
+      "05" : "Silao",
+      "06" : "Valle de Santiago",
+      "07" : "Romita",
+      "08" : "Celaya",
+      "09" : "Huanimaro",
+      "10" : "Salvatierra",
+      "11" : "Guanajuato",
+      "12" : "Abasolo",
+      "13" : "Acambaro",
+      "14" : "Apaseo El Alto",
+      "15" : "Apaseo El Grande",
+      "16" : "Comonfort",
+      "17" : "Cortazar",
+      "18" : "Jerécuaro",
+      "19" : "Juventino Rosas",
+      "20" : "Moroleon",
+      "21" : "Penjamo",
+      "22" : "Pueblo Nuevo",
+      "23" : "San Luis de la Paz",
+      "24" : "San Miguel de Allende",
+      "25" : "Tarimoro",
+      "27" : "Tierra Blanca",
+      "28" : "Uriangato",
+      "29" : "Villagran",
+      "30" : "Yuriria",
+      "31" : "Victoria",
+      "32" : "Villa Doctor Mora",
+      "33" : "Tarandacuao",
+      "34" : "Santiago Maravatío",
+      "35" : "Ocampo"
+    },
+    "UG-DICIS" : {
+      "01" : "DICIS",
+      "02" : "Irapuato",
+      "03" : "Salamanca",
+      "04" : "Leon",
+      "05" : "Silao",
+      "06" : "Valle de Santiago",
+      "07" : "Romita",
+      "08" : "Celaya",
+      "09" : "Huanimaro",
+      "10" : "Salvatierra",
+      "11" : "Guanajuato",
+      "12" : "Abasolo",
+      "13" : "Acambaro",
+      "14" : "Apaseo El Alto",
+      "15" : "Apaseo El Grande",
+      "16" : "Comonfort",
+      "17" : "Cortazar",
+      "18" : "Jerécuaro",
+      "19" : "Juventino Rosas",
+      "20" : "Moroleon",
+      "21" : "Penjamo",
+      "22" : "Pueblo Nuevo",
+      "23" : "San Luis de la Paz",
+      "24" : "San Miguel de Allende",
+      "25" : "Tarimoro",
+      "27" : "Tierra Blanca",
+      "28" : "Uriangato",
+      "29" : "Villagran",
+      "30" : "Yuriria",
+      "31" : "Victoria",
+      "32" : "Villa Doctor Mora",
+      "33" : "Tarandacuao",
+      "34" : "Santiago Maravatío",
+      "35" : "Ocampo"
+    },
+    "UG-DICIVA" : {
+      "01" : "DICIVA",
+      "02" : "Irapuato",
+      "03" : "Salamanca",
+      "04" : "Leon",
+      "05" : "Silao",
+      "06" : "Valle de Santiago",
+      "07" : "Romita",
+      "08" : "Celaya",
+      "09" : "Huanimaro",
+      "10" : "Salvatierra",
+      "11" : "Guanajuato",
+      "12" : "Abasolo",
+      "13" : "Acambaro",
+      "14" : "Apaseo El Alto",
+      "15" : "Apaseo El Grande",
+      "16" : "Comonfort",
+      "17" : "Cortazar",
+      "18" : "Jerécuaro",
+      "19" : "Juventino Rosas",
+      "20" : "Moroleon",
+      "21" : "Penjamo",
+      "22" : "Pueblo Nuevo",
+      "23" : "San Luis de la Paz",
+      "24" : "San Miguel de Allende",
+      "25" : "Tarimoro",
+      "27" : "Tierra Blanca",
+      "28" : "Uriangato",
+      "29" : "Villagran",
+      "30" : "Yuriria",
+      "31" : "Victoria",
+      "32" : "Villa Doctor Mora",
+      "33" : "Tarandacuao",
+      "34" : "Santiago Maravatío",
+      "35" : "Ocampo"
+    }
+  }
+}
