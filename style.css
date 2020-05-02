@@ -1,22 +1,66 @@
-@import 'https://fonts.googleapis.com/css?family=Baloo+Chettan+2:100';
-html,
+* {
+  -webkit-transition: all .5s;
+  transition: all .5s;
+}
+
 body {
-  font-family: 'Roboto Mono', monospace;
-  background: #212121;
-  height: 100%;
+  background-color: #252525;
+  font-family: 'Lato', sans-serif;
+  font-weight: 300;
 }
-.container {
-  height: 100%;
-  width: 100%;
-  justify-content: center;
-  align-items: center;
-  display: flex;
-}
+
 .text {
-  font-weight: 100;
-  font-size: 28px;
-  color: #fafafa;
+  position: absolute;
+  left: 10px;
+  bottom: 10px;
 }
-.dud {
-  color: #757575;
-} 
+
+.text, a {
+  color: #f4f4f4;
+  font-weight: 100;
+}
+
+svg {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+
+.textTime {
+  fill: #f4f4f4;
+  text-anchor: middle;
+  alignment-baseline: middle;
+  font-size: 1.5rem;
+  font-weight: 100;
+}
+
+.outerRing {
+  fill: none;
+  stroke: #f4f4f4;
+  stroke-width: 2px;
+  stroke-dasharray: 4px;
+  opacity: .5;
+}
+
+.primCircle {
+  fill: #252525;
+  stroke: #f4f4f4;
+  stroke-width: 10px;
+}
+
+.secCircle {
+  fill: #45d9fd;
+  stroke: #252525;
+  stroke-width: 3px;
+}
+
+.spike {
+  stroke: #f4f4f4;
+  stroke-width: 2px;
+}
+
+.triangle {
+  fill: #ee2560;
+}
