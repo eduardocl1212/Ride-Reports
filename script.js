@@ -1,29 +1,33 @@
-// START CLOCK SCRIPT
-
-Number.prototype.pad = function(n) {
-  for (var r = this.toString(); r.length < n; r = 0 + r);
-  return r;
+const totalCases = document.querySelector(".total_cases");
+const deaths = document.querySelector(".deaths");
+const recovered = document.querySelector(".recovered");
+const newCases = document.querySelector(".new_cases");
+var settings = {
+  async: true,
+  crossDomain: true,
+  url:
+    "https://coronavirus-monitor.p.rapidapi.com/coronavirus/cases_by_country.php",
+  method: "GET",
+  headers: {
+    "x-rapidapi-host": "coronavirus-monitor.p.rapidapi.com",
+    "x-rapidapi-key": "7ab5bc98e5msh2a02aa319f5d355p1f98bdjsn76fd281af303"
+  }
 };
 
-function updateClock() {
-  var now = new Date();
-  var milli = now.getMilliseconds(),
-    sec = now.getSeconds(),
-    min = now.getMinutes(),
-    hou = now.getHours(),
-    mo = now.getMonth(),
-    dy = now.getDate(),
-    yr = now.getFullYear();
-  var months = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
-  var tags = ["mon", "d", "y", "h", "m", "s", "mi"],
-    corr = [months[mo], dy, yr, hou.pad(2), min.pad(2), sec.pad(2), milli];
-  for (var i = 0; i < tags.length; i++)
-    document.getElementById(tags[i]).firstChild.nodeValue = corr[i];
-}
+$.ajax(settings).done(function(response) {
+  displayData(response);
+});
 
-function initClock() {
-  updateClock();
-  window.setInterval("updateClock()", 1);
+function displayData(data) {
+  const parsedData = JSON.parse(data);
+  console.log(parsedData.countries_stat);
+  const countries = parsedData.countries_stat;
+  countries.forEach(function(country) {
+    if (country.country_name == "Mexico") {
+      totalCases.innerHTML = country.cases;
+      deaths.innerHTML = country.deaths;
+      recovered.innerHTML = country.total_recovered;
+      newCases.innerHTML = country.new_cases;
+    }
+  });
 }
-
-// END CLOCK SCRIPT
